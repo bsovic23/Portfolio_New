@@ -1,0 +1,101 @@
+/* Root elements ==========================================================*/
+:root {
+    --sectionColor: blue;
+    --headerColor: yellow;
+}
+
+/* Background =========================================================*/
+
+body {
+    background-color: rgb(30, 238, 203);
+}
+
+/* Navbar elements =========================================================*/
+.navbar {
+    background-color: blue;
+    padding: 10px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 24px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.navbar ul li a:hover{
+    color: green;
+}
+
+/* Opening Box 1 (Pic, Contact Info =======================================*/
+/* Opening Title */
+.title {
+    background-color: var(--sectionColor);
+    color: white;
+    padding: 10px;
+}
+
+/* Box_intro */
+.box_intro {
+    display: flex;
+    flex-wrap: flex;
+}
+
+/* Brit Image */
+
+/* Contact Information */
+
+
+
+/* Projects ==============================================================*/
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--sectionColor);
+    padding: 10px;
+}
+
+.box_project {
+    background-color: yellow;
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+/* Biography ==============================================================*/
+.biography {
+    background-color: var(--sectionColor);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.biography h1 {
+    background-color: var(--headerColor);
+    padding: 10px;
+}
+
+.biography div {
+    background-color: pink;
+    padding: 10px;
+}
+
+
+/* In Depth Projects ==============================================================*/
+.projectsDesc {
+    background-color: var(--sectionColor);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Footer ==============================================================*/
+footer p{
+    background-color: green;
+    margin-top: 20px;
+    padding: 10px
+}
