@@ -52,18 +52,21 @@ body {
     flex-wrap: wrap;
     background-color: var(--sectionColor);
     padding: 20px;
-    color: white;
+    color: black;
 }
 
 /* Brit Image */
 .brit_pic {
     width: 300px;
     height: 500px;
-    border: white 5px solid;
+    background-color: var(--boxcolor);
+    padding: 10px;
 }
 /* Contact Information */
 .openingBoxContact {
     margin-left: 40px;
+    background-color: var(--boxcolor);
+    padding: 10px;
 }
 
 .contactInfoUl li {
@@ -146,6 +149,11 @@ body {
     padding: 10px;
 }
 
+.projectsDesc2 img {
+    width: 50px;
+    height: 50px;
+}
+
 /* Published ==============================================================*/
 .published {
     background-color: var(--sectionColor);
@@ -160,6 +168,16 @@ body {
 
 .published ul li {
     list-style-type: none;
+    margin-top: 10px;
+}
+
+.published li a {
+    text-decoration: none;
+}
+
+.published li a:hover {
+    text-decoration: none;
+    color:rgb(255, 36, 222);
 }
 
 /* Footer ==============================================================*/
@@ -175,6 +193,12 @@ footer li {
     margin-top: 15px;
 }
 
-.toTop:hover {
+footer li, footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+.toTop a:hover {
     font-size: 20px;
+    color: rgb(255, 36, 222);
 }
