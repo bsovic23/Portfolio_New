@@ -1,19 +1,20 @@
 /* Root elements ==========================================================*/
 :root {
-    --sectionColor: blue;
-    --headerColor: yellow;
+    --sectionColor: rgba(96, 183, 242, 0.492);
+    --headerColor:  rgb(63, 204, 98);
+    --boxcolor: rgb(63, 204, 98);
 }
 
 /* Background =========================================================*/
 
 body {
-    background-color: rgb(30, 238, 203);
+    background-color: rgb(47, 39, 107);
 }
 
 /* Navbar elements =========================================================*/
 .navbar {
-    background-color: blue;
-    padding: 10px;
+    background-color: var(--headerColor);
+    padding: 5px;
 }
 
 .navbar ul li {
@@ -23,13 +24,16 @@ body {
 }
 
 .navbar ul li a{
-    color: white;
+    color: black;
     text-decoration: none;
     margin-right: 30px;
 }
 
 .navbar ul li a:hover{
-    color: green;
+    background-color: rgb(255, 221, 0);
+    padding: 10px;
+    border: black solid 3px;
+    border-radius: 10px;
 }
 
 /* Opening Box 1 (Pic, Contact Info =======================================*/
@@ -38,20 +42,30 @@ body {
     background-color: var(--sectionColor);
     color: white;
     padding: 10px;
+    font-size: 50px;
+    text-align: center;
 }
 
 /* Box_intro */
 .box_intro {
     display: flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
+    background-color: var(--sectionColor);
+    padding: 20px;
+    color: white;
 }
 
 /* Brit Image */
 .brit_pic {
     width: 300px;
     height: 500px;
+    border: white 5px solid;
 }
 /* Contact Information */
+.openingBoxContact {
+    margin-left: 40px;
+}
+
 .contactInfoUl li {
     list-style-type: none;
     margin-top: 15px;
@@ -60,18 +74,28 @@ body {
 
 /* Projects ==============================================================*/
 .projects {
+    background-color: var(--sectionColor);
+    margin-top: 20px;
+}
+
+.projects .projectsContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: var(--sectionColor);
+    padding: 20px;
+}
+
+.boxProjectIntro {
+    background-color:rgb(63, 204, 98);
     padding: 10px;
 }
 
 .box_project {
-    background-color: yellow;
+    background-color: var(--boxcolor);
     padding: 10px;
-    border: black 2px solid;
+    border: white 5px solid;
     border-radius: 10px;
+    text-align: center;
 }
 
 .projectImg {
@@ -79,10 +103,15 @@ body {
     height: 100px;
 }
 
+.projectImg:hover {
+    width: 350px;
+    height: 200px;
+}
+
 /* Biography ==============================================================*/
 .biography {
     background-color: var(--sectionColor);
-    padding: 10px;
+    padding: 30px;
     margin-top: 20px;
 }
 
@@ -92,7 +121,7 @@ body {
 }
 
 .biography div {
-    background-color: pink;
+    background-color: var(--boxcolor);
     padding: 10px;
 }
 
@@ -107,9 +136,45 @@ body {
     margin-top: 20px;
 }
 
+.projectsDesc h1 {
+    background-color:rgb(63, 204, 98);
+    padding: 10px;
+}
+
+.projectsDesc2 {
+    background-color:rgb(63, 204, 98);
+    padding: 10px;
+}
+
+/* Published ==============================================================*/
+.published {
+    background-color: var(--sectionColor);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.published h2, .published ul {
+    background-color: rgb(63, 204, 98);
+    padding: 10px;
+}
+
+.published ul li {
+    list-style-type: none;
+}
+
 /* Footer ==============================================================*/
-footer p{
-    background-color: green;
+footer{
+    background-color: var(--sectionColor);
     margin-top: 20px;
     padding: 10px
+}
+
+footer li {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.toTop:hover {
+    font-size: 20px;
 }
