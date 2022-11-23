@@ -74,6 +74,15 @@ body {
     margin-top: 15px;
 }
 
+.contactInfoUl li a {
+    text-decoration: none;
+}
+
+.contactInfoUl li a:hover {
+    background-color: yellow;
+    padding: 10px;
+}
+
 
 /* Projects ==============================================================*/
 .projects {
@@ -103,6 +112,10 @@ body {
     margin-bottom: 10px;
 }
 
+.box_project a {
+    text-decoration: none;
+}
+
 .box_project a:hover {
     background-color: yellow;
     padding: 10px;
@@ -111,11 +124,6 @@ body {
 .projectImg {
     width: 250px;
     height: 100px;
-}
-
-.projectImg:hover {
-    width: 350px;
-    height: 200px;
 }
 
 /* Biography ==============================================================*/
