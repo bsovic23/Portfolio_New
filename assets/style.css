@@ -147,6 +147,15 @@ body {
     margin-top: 15px;
 }
 
+.biography p a {
+    text-decoration: none;
+}
+
+.biography p a:hover {
+    background-color: yellow;
+    padding: 10px;
+}
+
 /* In Depth Projects ==============================================================*/
 .projectsDesc {
     background-color: var(--sectionColor);
