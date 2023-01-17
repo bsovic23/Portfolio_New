@@ -7,29 +7,49 @@
 
 /* Background =========================================================*/
 
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 body {
     background-color: rgb(47, 39, 107);
 }
 
+
 /* Navbar elements =========================================================*/
-.navbar {
+.navbar_section {
     background-color: var(--headerColor);
     padding: 5px;
 }
 
-.navbar ul li {
+.navbar_section .title {
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+    display: inline;
+}
+
+.navbar_section nav {
+    float: right;
+    margin: 10px 0;
+}
+
+.navbar_section ul li {
     list-style-type: none;
     display: inline;
     font-size: 24px;
+    padding: 10px;
 }
 
-.navbar ul li a{
+.navbar_section ul li a{
     color: black;
     text-decoration: none;
     margin-right: 30px;
+    padding: 10px;
 }
 
-.navbar ul li a:hover{
+.navbar_section ul li a:hover{
     background-color: rgb(255, 221, 0);
     padding: 10px;
     border: black solid 3px;
@@ -37,14 +57,6 @@ body {
 }
 
 /* Opening Box 1 (Pic, Contact Info =======================================*/
-/* Opening Title */
-.title {
-    background-color: var(--sectionColor);
-    color: white;
-    padding: 10px;
-    font-size: 50px;
-    text-align: center;
-}
 
 /* Box_intro */
 .box_intro {

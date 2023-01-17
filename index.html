@@ -2,24 +2,26 @@
 <html lang="en">
     <head>
         <title>Brit Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="./assets/style.css" >
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" >
     </head>
 
     <body>
         <!--Navbar-->
-        <header class="navbar">
-            <ul>
-                <li><a href="#biography">Biography</a></li>
-                <li><a href="#projectsDesc">Projects</a></li>
-                <li><a href="#contactInfo">Contact Information</a></li>
-            </ul>
+        <header class="navbar_section">
+            <h1 class="title">Brit Sovic Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#biography">Biography</a></li>
+                    <li><a href="#projectsDesc">Projects</a></li>
+                    <li><a href="#contactInfo">Contact Information</a></li>
+                </ul>
+            </nav>
         </header>
 
         <!--Opening Box 1 (Pic, Contact Info)-->
-        <h1 class="title">Brit Sovic Portfolio</h1>
         <section class="box_intro">   
             <div>
-                <img src="./assets/brit_img.png" class="brit_pic" alt="This is a contact picture of Brit Sovic" />
+                <img src="./assets/pictures/brit_img.png" class="brit_pic" alt="This is a contact picture of Brit Sovic" />
             </div>
             <div class="openingBoxContact">
                 <h2>Contact Information</h2>
@@ -27,7 +29,7 @@
                     <li>Name: Brit Sovic</li>
                     <li>Email: bsovic@tulane.edu</li>
                     <li>Github: <a href="https://github.com/bsovic23" target="_blank">Brit Sovic Github</a></li>
-                    <li>Phone: 123-456-7890</li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/brit-sovic-1b859122b/?trk=public_profile_browsemap" target="_blank">Brit Sovic LinkedIn</a></li>
                 </ul>
             </div>
         </section>
@@ -41,42 +43,42 @@
             <div class="projectsContainer">
                 <div class="box_project">
                     <h2>Run Buddy</h2>
-                    <img src="./assets/runbuddy_img.PNG" class="projectImg" alt="A picture of the login screen with a form to sign up for run-buddy" />
+                    <img src="./assets/pictures/runbuddy_img.PNG" class="projectImg" alt="A picture of the login screen with a form to sign up for run-buddy" />
                     <p>Matches runners with personal trainers</p>
                     <a href="#run-buddy">Click here to see more about this project</a>
                 </div>
     
                 <div class="box_project">
                     <h2>RA-BRIT</h2>
-                    <img src="./assets/rabrit_img.png" class="projectImg" alt="The logo for RA-BRIT which features a how can I help you statement" />
+                    <img src="./assets/pictures/rabrit_img.png" class="projectImg" alt="The logo for RA-BRIT which features a how can I help you statement" />
                     <p>Clinical Research data assistance</p>
                     <a href="#RA-BRIT">Click here to see more about this project</a>
                 </div>
     
                 <div class="box_project">
                     <h2>Taskinator</h2>
-                    <img src="./assets/taskinator_img.PNG" class="projectImg" alt="Homepage of taskinator where an individual can enter in a task" />
+                    <img src="./assets/pictures/taskinator_img.PNG" class="projectImg" alt="Homepage of taskinator where an individual can enter in a task" />
                     <p>Create a to-do list</p>
                     <a href="#taskinator">Click here to see more about this project</a>
                 </div>
     
                 <div class="box_project">
                     <h2>Robot Gladiators</h2>
-                    <img src="./assets/robot_img.png" class="projectImg" alt="Project Picture" />
+                    <img src="./assets/pictures/robot_img.png" class="projectImg" alt="Project Picture" />
                     <p>Battle game between robot warriors</p>
                     <a href="#robot-gladiators">Click here to see more about this project</a>
                 </div>
 
                 <div class="box_project">
                     <h2>Find Your Pet</h2>
-                    <img src="./assets/findYourPet_img.PNG" class="projectImg" alt="Project Picture" />
+                    <img src="./assets/pictures/findYourPet_img.PNG" class="projectImg" alt="Project Picture" />
                     <p>Find a pet to adopt by zipcode</p>
                     <a href="#find-your-pet">Click here to see more about this project</a>
                 </div>
 
                 <div class="box_project">
                     <h2>Password Generator</h2>
-                    <img src="./assets/passwordGenerator_img.PNG" class="projectImg" alt="Project Picture" />
+                    <img src="./assets/pictures/passwordGenerator_img.PNG" class="projectImg" alt="Project Picture" />
                     <p>Generate a random password</p>
                     <a href="#password-generator">Click here to see more about this project</a>
                 </div>
@@ -90,14 +92,14 @@
 
                 <div class="box_project">
                     <h2>PawPals</h2>
-                    <img src="./assets/pawpals_img.PNG" class="projectImg" alt="Project Picture" />
+                    <img src="./assets/pictures/pawpals_img.PNG" class="projectImg" alt="Project Picture" />
                     <p>Connect with fellow dog walkers</p>
                     <a href="#PawPals">Click here to see more about this project</a>
                 </div>
 
                 <div class="box_project">
                     <h2>Just Do It</h2>
-                    <img src="./assets/justdoit_img.png" class="projectImg" alt="Project Picture" />
+                    <img src="./assets/pictures/justdoit_img.png" class="projectImg" alt="Project Picture" />
                     <p>Find and create workouts</p>
                     <a href="#JustDoIt">Click here to see more about this project</a>
                 </div>
@@ -107,10 +109,7 @@
         <!--Biography-->
         <section class="biography" id="biography">
             <h1>Brit Biography</h1>
-            <div>
-                <h2>LinkedIn</h2>
-                <a href="https://www.linkedin.com/in/brit-sovic-1b859122b/?trk=public_profile_browsemap" target="_blank">Brit Sovic LinkedIn</a>
-            </div>
+
             <div class="bio_box">
                 <h2>Fun Facts</h2>
                 <ul>
@@ -134,7 +133,7 @@
             <h1>Projects Detailed</h1>
             <section class="projectsDesc2">
                 <div>
-                    <li><a href="https://bsovic23.github.io/run-buddy/" target="_blank"><img src="./assets/runbuddy_img.PNG" id="firstproject" alt="project" /></a></li>
+                    <li><a href="https://bsovic23.github.io/run-buddy/" target="_blank"><img src="./assets/pictures/runbuddy_img.PNG" id="firstproject" alt="project" /></a></li>
                     
                     <h2 id="run-buddy">Run Buddy</h2>
                     <ul>
@@ -146,7 +145,7 @@
                     </ul>     
                 </div>
                 <div>
-                    <li><a href="#" target="_blank"><img src="./assets/rabrit_img.png" alt="project" /></a></li>
+                    <li><a href="#" target="_blank"><img src="./assets/pictures/rabrit_img.png" alt="project" /></a></li>
                     <h2 id="RA-BRIT">RA-BRIT</h2>
                     <ul>
                         <li>Click the Picture above to go to the application</li>
@@ -157,7 +156,7 @@
                     </ul>  
                 </div>
                 <div>
-                    <li><a href="https://bsovic23.github.io/taskinator/" target="_blank"><img src="./assets/taskinator_img.PNG" alt="project" /></a></li>
+                    <li><a href="https://bsovic23.github.io/taskinator/" target="_blank"><img src="./assets/pictures/taskinator_img.PNG" alt="project" /></a></li>
                     <h2 id="taskinator">Taskinator</h2>
                     <ul>
                         <li>Click the Picture above to go to the application</li>
@@ -168,7 +167,7 @@
                     </ul>  
                 </div>
                 <div>
-                    <li><a href="https://bsovic23.github.io/robot-gladiators/" target="_blank"><img src="./assets/robot_img.png" alt="project" /></a></li>
+                    <li><a href="https://bsovic23.github.io/robot-gladiators/" target="_blank"><img src="./assets/pictures/robot_img.png" alt="project" /></a></li>
                     <h2 id="robot-gladiators">Robot Gladiators</h2>
                     <ul>
                         <li>Click the Picture above to go to the application</li>
@@ -179,7 +178,7 @@
                     </ul>  
                 </div>
                 <div>
-                    <li><a href="https://bsovic23.github.io/Find_Your_Pet/" target="_blank"><img src="./assets/findYourPet_img.PNG" alt="project" /></a></li>
+                    <li><a href="https://bsovic23.github.io/Find_Your_Pet/" target="_blank"><img src="./assets/pictures/findYourPet_img.PNG" alt="project" /></a></li>
                     <h2 id="find-your-pet">Find Your Pet</h2>
                     <ul>
                         <li>Click the Picture above to go to the application</li>
@@ -190,7 +189,7 @@
                     </ul>  
                 </div>
                 <div>
-                    <li><a href="https://bsovic23.github.io/password-generator/" target="_blank"><img src="./assets/passwordGenerator_img.PNG" alt="project" /></a></li>
+                    <li><a href="https://bsovic23.github.io/password-generator/" target="_blank"><img src="./assets/pictures/passwordGenerator_img.PNG" alt="project" /></a></li>
                     <h2 id="password-generator">Password Generator</h2>
                     <ul>
                         <li>Click the Picture above to go to the application</li>
@@ -212,7 +211,7 @@
                     </ul>  
                 </div>
                 <div>
-                    <li><a href="https://pawpals22.herokuapp.com/" target="_blank"><img src="./assets/pawpals_img.PNG" alt="project" /></a></li>
+                    <li><a href="https://pawpals22.herokuapp.com/" target="_blank"><img src="./assets/pictures/pawpals_img.PNG" alt="project" /></a></li>
                     <h2 id="PawPals">PawPals</h2>
                     <ul>
                         <li>Click the Picture above to go to the application</li>
@@ -223,7 +222,7 @@
                     </ul>  
                 </div>
                 <div>
-                    <li><a href="https://workout-finder.herokuapp.com/" target="_blank"><img src="./assets/justdoit_img.png" alt="project" /></a></li>
+                    <li><a href="https://workout-finder.herokuapp.com/" target="_blank"><img src="./assets/pictures/justdoit_img.png" alt="project" /></a></li>
                     <h2 id="#JustDoIt">Just Do It</h2>
                     <ul>
                         <li>Click the Picture above to go to the application</li>
